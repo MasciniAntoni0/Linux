@@ -1,0 +1,114 @@
+#Rapid introduction
+Hey guys welcome in the first linux guide for beginners. in this guide I will explain You the Linux terminal's basic commands, so if You have started to use Linux, learn these commands will simple You use Linux. But now Let's get started.
+
+
+
+#pwd: The command pwd is used to see the directory where are you now. example:
+    pwd
+    /home
+As I have showed you in this hands-on example I have typed the pwd command and has showed me the directory home where I was in this example.
+
+
+
+#ls: The command ls is used to show you what you have inside that directory. example:
+    ls
+    homeworks
+    pdf Files
+    program.cpp
+    shopList.txt
+    internationalSystem.xlsx   
+To know if the content is a file or directory, of usual in moderns Linux's distro it's very simple the directory are blue or sky blue and the standard and executives files are white and the others file's types are in an another specific colors.
+
+
+
+#mkdir: The command mkdir is the command to create a new directory. mkdir means make directory. example:
+   mkdir directoryName
+Now after that You have typed the command mkdir, you have created a new directory.
+
+
+
+#cd: The command cd is the command to enter in another directory. cd means change directory. example:
+   cd directoryName
+Now you are in directoryName because you have entered in that directory with the command cd.
+
+
+
+#rmdir: The command rmdir is the command to remove a directory. rmdir means remove directory. example:
+   rmdir directoryName
+Now the directory: directoryName has been deleted permanetely.
+
+
+
+#nano: The command nano is a command used to create a text file where you can write inside it. example:
+   nano text
+After this step you are in a text file where you can write whatever. To save the file you have to type:
+   ctrl+x
+After, it will ask you "do you want save file Y/n or y/N" (yes or no)  and to save type Y or y, and after it, to get out from that file you have to type: 
+   ctrl+o
+
+
+
+#rm: The command rm is the command to delete PERMANETELY a file. example:
+  rm text
+After that you have used the command rm that file has been deleted permanetely.
+
+
+
+#cp: The command cp is the command to create a file's copy. example:
+  cp CopyName FileName
+Now you have created a copy's file and if you will type the command nano (that i explained you before) you will find exactly what you have wrote in original file because you have created a file's copy.
+
+
+
+#mv: The command mv is the command to move a file in a directory. example:
+  mv fileName directoryName
+Now the file that you have moved, is in that directory where you have moved the file.
+
+
+
+#cat: The command cat is the command to print on the terminal the file's content. example:
+  cat fileName
+Now on your terminal you will see the content inside that file.
+
+
+
+#less: The command less is a command that can seem at the cat command but the cat command show you the file on the terminal, the command less show you the file's content on a new terminal's window. example:
+  less fileName
+Now you are on a new terminal's window and in that new terminal's window you will see the file's content.
+
+
+
+#head: The command head is the command to print on your terminal the first 10 lines of a file. example:
+  head fileName
+Now you will see on your terminal the first 10 lines of that file.
+
+
+
+#tail: The command tail is the command to print on your terminal the last 10 lines of a file. example:
+  tail fileName
+Now you will see on your terminal the last 10 lines of that file.
+
+
+
+
+#head -n: -n is an option of the command head to print on your terminal the first number inserted lines in that file. example:
+  head -n5 fileName
+Now you will see the first 5 lines in that file on your terminal, and you can do it with anyone number.
+
+
+
+#tail -n: -n is an option of the command tail to print on your terminal the last number inserted lines in that file. example:
+  tail -n5 fileName
+Now you will see the last 5 lines in that file on your terminal. and you can do it with ever number -n1, -n2, -n3 and more.
+
+
+
+#history: The command history is the command to see all the last commands that you typed before now. example:
+  history
+Now you will see all the commands that you typed before than now on your terminal.
+
+
+
+#man: The command man is the command to see a command's abouts. example:
+  man mkdir
+Now you will see on a new terminal's window everything about the command mkdir and more.
