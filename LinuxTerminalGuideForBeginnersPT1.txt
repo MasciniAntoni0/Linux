@@ -55,7 +55,7 @@ After that you have used the command rm that file has been deleted permanetely.
 
 
 #cp: The command cp is the command to create a file's copy. example:
-  cp CopyName FileName
+  cp fileName copyName
 Now you have created a copy's file and if you will type the command nano (that i explained you before) you will find exactly what you have wrote in original file because you have created a file's copy.
 
 
