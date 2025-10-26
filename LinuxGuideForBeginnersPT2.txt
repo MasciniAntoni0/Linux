@@ -11,8 +11,8 @@ Now you will see on your terminal all the strings inside that file who you searc
 
 #find: The command find is the command to search a file or a directory. example:
    find fileName
+        or
    find DirectoryName
-   find /DirectoryName/fileName
 Now you will see on your terminal the file or directory name that you have searched and also the position where it is.
 
 
