@@ -1,0 +1,50 @@
+#Rapid introduction
+Hey guys, Welcome in the second part of the Linux's terminal commands guide for beginners. Let's get started.
+
+
+
+#grep: The command grep is the command to search a specific string in a file. example:
+   grep StringToSearch FileName          
+Now you will see on your terminal all the strings inside that file who you searched before.
+
+
+
+#find: The command find is the command to search a file or a directory. example:
+   find fileName
+   find DirectoryName
+   find /DirectoryName/fileName
+Now you will see on your terminal the file or directory name that you have searched and also the position where it is.
+
+
+
+#|: The symbol | (called pipe) is used to use the first command's output as second command's output. example with 2 commands:
+   command1 | command2
+Now with | you have used the first command's output as second command's input. example with 3 or more commands:
+   command1 | command2 | command3
+Now with | you have used the first command's output as second command's input and than the second command's output as third command's input and more.
+
+
+
+#sudo: The command sudo is the command to access with the Admin privileges. But to safety reasons the command sudo before to enter, it will ask you the password and you can use it only for 15 minutes.
+   sudo apt update
+Now with the command sudo and also with apt update, You have updated the system as Admin with the Admin privileges.
+
+
+
+#touch: The command touch is the command to create a file like the command nano (That I explained you in the last Linux's guide). example:
+   touch fileName
+Now You have created an empty file. 
+
+
+
+#echo: The command echo is the command to write something on the terminal or inside a file. example:
+   echo hello world!
+Now You will see wrote "hello world!" on your terminal.
+   echo "Hello world!" > FileName
+Now You will see inside that file or on your terminal with the command cat (that i explained you in the last Linux's guide), what you have wrote in that file, in this case, You will see wrote Hello world!.
+
+
+
+#ps aux: The command ps aux is the command to see the processes' list in execution. example:
+   ps aux
+Now on your terminal, You will see all processes' list in execution on your computer.
